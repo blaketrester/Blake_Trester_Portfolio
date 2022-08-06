@@ -1,0 +1,13 @@
+.hero {
+    height: 400px;
+    width: 50%;
+    margin-bottom: 25px;
+    background-image: url("./Hero_Photo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image {
+    height: 15%;
+    width: 15%;
+}
