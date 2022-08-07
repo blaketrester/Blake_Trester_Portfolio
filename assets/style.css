@@ -1,13 +1,109 @@
-.hero {
-    height: 400px;
-    width: 50%;
-    margin-bottom: 25px;
-    background-image: url("./Hero_Photo.jpg");
-    background-size: cover;
-    background-position: center;
+/* Universal and Element Selectors */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #430a4b; ; 
 }
+
+li, a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Image Styling */
+.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 .image {
     height: 15%;
     width: 15%;
+    border: 2px solid white;
+    border-radius: 7%;
 }
+
+#portrait {
+    float: right;
+}
+
+#roadrunner {
+    float: right;
+}
+
+
+/*Stylings for Header and Navigation */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 4%;
+    background-color: #430a4b;
+    border-bottom: 2px solid mediumvioletred;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+.logo {
+    cursor: pointer;
+    background-color: #430a4b;
+    margin-right: auto;
+}
+
+h1 {
+    margin-right:auto ;
+    padding-right: 600px;
+    background-color: #430a4b;
+}
+
+.nav-links {
+    list-style: none; 
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;   
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+   color: aquamarine;
+}
+
+
+/* Stylings for main section content of website */
+body {
+    background-color: rgb(59, 29, 139);
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.section-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #14136b;
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+.section-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
