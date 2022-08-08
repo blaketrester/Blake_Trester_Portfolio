@@ -11,13 +11,6 @@ body {
     background-color: rgb(59, 29, 139);
 }
 
-li, a {
-    font-weight: 500;
-    font-size: 28px;
-    color: aliceblue;
-    text-decoration: none;
-}
-
 h2 {
     font-size: 70px;
     margin-bottom: 20px;
@@ -31,6 +24,7 @@ h4 {
 p {
     line-height: 30px;
     letter-spacing: 1px;
+    margin-bottom: 20px;
 }
 
 /* Image Styling */
@@ -71,7 +65,7 @@ header {
 .header {
     height: 100%;
     width: 100%;
-    background-image: url(./Header_Image.jpg);
+    background-image: url(./Navbar_Image.jpg);
 }
 
 h1 {
@@ -80,16 +74,19 @@ h1 {
 }
 
 .nav-links {
-    list-style: none; 
-}
+    list-style: none;
+    font-weight: 500;
+    font-size: 28px;
+} 
 
 .nav-links li {
     display: inline-block;
-    padding: 0px 20px;   
+    padding: 0px 20px;  
 }
 
 .nav-links li a {
     transition: all 0.3s ease 0s;
+    text-decoration: none;
 }
 
 .nav-links li a:hover {
@@ -124,6 +121,37 @@ h1 {
     justify-content: space-around;
 }
 
+    /* Skills Section */
+
+.about ul {
+    width: 550px;
+    column-count: 3;
+}
+
+.about li {
+    margin: 20px;
+    margin-top: 0;
+    list-style-type: circle;
+}
+
+    /* Contact Section */
+.contact {
+    font-size: 24px;
+    text-align: center;
+    width: 550px;
+}    
+
+.contact li {
+    margin: 10px;
+}
+
+.contact li a {
+    transition: all 0.3s ease 0s;
+}
+
+.contact li a:hover {
+   color: aquamarine;
+}
 
 /* Styling for Footer */
 .footer {
