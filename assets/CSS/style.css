@@ -57,6 +57,15 @@ section {
     margin-bottom: 30 px;
 }
 
+#horiseon a {
+    transition: all 0.3s ease 0s;
+}
+
+#horiseon img:hover {
+    position: relative;
+    top: -4px;
+ }
+
 .work-img a img {
     border: 2px solid white;
     border-radius: 7%;
@@ -159,8 +168,12 @@ h1 {
         margin-bottom: 30px;
     }  
     
-    .work-section-content a:hover {
-        color: aquamarine;
+    .work-img a {
+        transition: all 0.3s ease 0s;
+    }
+
+    .work-img img:hover {
+        margin-bottom: 5px;
      }
 
 
