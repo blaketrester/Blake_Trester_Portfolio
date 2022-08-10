@@ -16,7 +16,7 @@ My primary goal for this project was to create a personal portfolio for myself w
 ## Demo
 View the website at the link below:
 
-https://blaketrester.github.io//
+https://blaketrester.github.io/Blake_Trester_Portfolio/
 
 <img src="./assets/Images/Page_Screenshot.png">
 
