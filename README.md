@@ -18,7 +18,7 @@ View the website at the link below:
 
 https://blaketrester.github.io//
 
-<img src="./assets/images/Page_Screenshot">
+<img src="./assets/Images/Page_Screenshot.png">
 
 ## Credits
 
