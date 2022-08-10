@@ -2,7 +2,8 @@
 
 ## Blake Trester 
 
-**Goal**
+**Goal:**
+
 My primary goal for this project was to create a personal portfolio for myself while practicing everything that I have learned up until this point. During this project I was able to identify areas that I needed to practice more as well as learned my strengths in creating responsive and appealing websites. This project is benificial not only for gaining more experience and practice, but it will also double as something I can continue to update and use to help grow my professional career. Having a strong portfolio will help me stand out to industry professionals and potential future employers.
 
 **Building a Responsive Website**
@@ -17,7 +18,7 @@ View the website at the link below:
 
 https://blaketrester.github.io//
 
-<img src="">
+<img src="./assets/images/Page_Screenshot">
 
 ## Credits
 
