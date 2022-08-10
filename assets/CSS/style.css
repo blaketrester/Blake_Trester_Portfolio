@@ -8,12 +8,13 @@
 }
 
 body {
-    background-color: rgb(59, 29, 139);
+    background-image: url(./Space-Free-PNG-Image.jpg);
 }
 
 h2 {
     font-size: 70px;
     margin-bottom: 20px;
+    text-shadow: 3px 3px black;
 }
 
 h4 {
@@ -27,12 +28,18 @@ p {
     margin-bottom: 20px;
 }
 
+section {
+    border: 2px solid white;
+    margin: 100px;
+}
+
 /* Image Styling */
 .hero {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-bottom: 20px;
   }
 
 .image {
@@ -47,6 +54,7 @@ p {
     border-radius: 7%;
     height: 40%;
     width: 40%;
+    margin-bottom: 30 px;
 }
 
 .work-img a img {
@@ -80,6 +88,7 @@ header {
 h1 {
     margin-right:auto ;
     padding-right: 600px;
+    text-shadow: 3px 3px black;
 }
 
 .nav-links {
@@ -107,14 +116,16 @@ h1 {
 
     /* About Section */
 .section-content {
-    width: 100%;
-    padding: 100px 0px;
+ 
+    padding: 50px;
     background-color: rgb(70, 11, 124);
 }
 
 .section-content img {
     height: auto;
     width: 430px;
+    box-shadow: 5px 10px 8px lightslategray;
+    margin: 20px;
 }
 
 .about-text {
@@ -127,8 +138,31 @@ h1 {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;    
 }
+
+    /* My Work Section */
+.work-section-content {
+    padding: 50px;
+    background-color: rgb(70, 11, 124);
+}
+
+.work-section-content img {
+    height: auto;
+    width: 430px;
+    box-shadow: 5px 10px 8px lightslategray;
+    margin: 20px;
+}
+
+    .work-section {
+        text-align: center;
+        margin-bottom: 30px;
+    }  
+    
+    .work-section-content a:hover {
+        color: aquamarine;
+     }
+
 
     /* Skills Section */
 
@@ -163,12 +197,14 @@ h1 {
 }
 
 /* Styling for Footer */
-.footer {
-    padding: 30px;
-    clear: both;
+footer {
     text-align: center;
+    background-color: rgb(70, 11, 124);
+    border-top: 2px solid mediumvioletred;
 }
 
-.footer h3 {
+footer h3 {
     font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
